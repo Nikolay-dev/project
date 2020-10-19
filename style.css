@@ -1,0 +1,123 @@
+body{
+	font-size: 12pt;
+	font-family: Times New Roman;
+	
+
+}
+header{
+	margin: auto;
+	padding: 10px; 
+	width: 980px;
+	background: url(image/bg_logo.png);
+	height: 120px;
+
+}
+.logo img{
+	width: auto;
+	height: auto;
+}
+.size_logo{
+	padding: 25px 0px;
+}
+.heder3{
+	font-style: italic;
+	color: red;
+	text-align: center;
+}
+content{
+ line-height: 160%;
+}
+.main{
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+	margin: auto;
+	width: 980px;
+}
+.size_lab{
+	width: 150px;
+}
+button{
+	background:#4682B4;
+	border: none;
+	padding: 5px 10px;
+	color: white;
+	border-radius: 4px;
+	font-size: 12pt;
+	font-family: Times New Roman;
+}
+button:hover{
+	background: #808080;
+	color: white;
+}
+.file:hover{
+	background: #808080;
+	color: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+.file {
+	background: #4682B4;
+	color: white;
+	font-size: 12pt;
+	font-family: Times New Roman;
+	border-radius: 4px;
+	border: none;
+    display: inline-block;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+input ,textarea{
+	font-size: 12pt;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	font-family: Times New Roman;
+	width: 970px;
+}
+
+
+@media (max-width: 600px) {
+     header{
+	margin: auto;
+	padding: 10px; 
+	width: 500px;
+	background: url(image/bg_logo.png);
+	height: 120px;
+}
+.main{
+	margin: auto;
+	width: 500px;
+   }
+input ,textarea{
+	font-size: 10pt;
+	font-family: Times New Roman;
+	width: 490px;
+}
+}
+@media (max-width: 480px) {
+     header{
+	margin: auto;
+	padding: 10px; 
+	width: 300px;
+	background: url(image/bg_logo.png);
+	height: 120px;
+}
+.logo img{
+	width: auto;
+	height: 45px;
+	}
+.main{
+	text-align: justify;
+	margin: auto;
+	width: 300px;
+   }
+input ,textarea{
+	font-size: 10pt;
+	font-family: Times New Roman;
+	width: 290px;
+}
+}
